@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -172,7 +172,6 @@ export default function Home() {
               role: "Local Resident",
               company: "Downtown District",
               rating: 5,
-              testimonial: "The best bakery in town! Their sourdough bread is absolutely incredible, and the staff is always so friendly and helpful.",
               imageSrc: getAssetUrl("testimonial-1"),
               imageAlt: getAssetAlt("testimonial-1")
             },
@@ -182,7 +181,6 @@ export default function Home() {
               role: "Restaurant Owner",
               company: "Chen's Cafe",
               rating: 5,
-              testimonial: "Golden Crust has been our go-to supplier for years. Their consistency and quality are unmatched in the area.",
               imageSrc: getAssetUrl("testimonial-2"),
               imageAlt: getAssetAlt("testimonial-2")
             },
@@ -192,7 +190,6 @@ export default function Home() {
               role: "Event Planner",
               company: "Perfect Occasions",
               rating: 5,
-              testimonial: "Their custom cakes have made every event special. The attention to detail and taste is phenomenal!",
               imageSrc: getAssetUrl("testimonial-3"),
               imageAlt: getAssetAlt("testimonial-3")
             },
@@ -202,7 +199,6 @@ export default function Home() {
               role: "Corporate Buyer",
               company: "Thompson & Associates",
               rating: 5,
-              testimonial: "We order from Golden Crust for all our corporate events. Professional service and delicious products every time.",
               imageSrc: getAssetUrl("testimonial-4"),
               imageAlt: getAssetAlt("testimonial-4")
             }
